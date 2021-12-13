@@ -29,5 +29,17 @@ public:
 	c_Point2D operator*(c_Point2D other) const;
 	
 	c_Point2D operator/(c_Point2D other) const;
+
+	bool operator < (c_Point2D other) const;
+	
+	bool operator > (c_Point2D other) const;
+
+	bool operator <=(c_Point2D other) const;
+	
+	bool operator >=(c_Point2D other) const;
+
+	bool operator == (c_Point2D other) const;
+	
+	bool operator != (c_Point2D other) const;
 };
 
