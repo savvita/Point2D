@@ -41,5 +41,7 @@ public:
 	bool operator == (c_Point2D other) const;
 	
 	bool operator != (c_Point2D other) const;
+
+	void Show() const;
 };
 

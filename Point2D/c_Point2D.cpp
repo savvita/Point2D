@@ -1,4 +1,5 @@
 #include "c_Point2D.h"
+#include<iostream>
 
 c_Point2D::c_Point2D()
 {
@@ -59,4 +60,9 @@ bool c_Point2D::operator==(c_Point2D other) const
 bool c_Point2D::operator!=(c_Point2D other) const
 {
 	return !(*this == other);
+}
+
+void c_Point2D::Show() const
+{
+	std::cout << "x: " << this->coordX << "\ty: " << this->coordY << "\n";
 }
